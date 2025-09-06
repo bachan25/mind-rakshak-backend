@@ -1,0 +1,13 @@
+descope
+requests
+python-dotenv
+sqlalchemy
+aiosqlite
+fastapi
+uvicorn
+pydantic
+pydantic[email]
+langgraph 
+langchain[openai]
+ipython
+langchain-tavily
