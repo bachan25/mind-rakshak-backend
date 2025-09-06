@@ -1,31 +1,63 @@
-# Example Run Flow
 
-app.py runs Streamlit.
+# MindRakshak Backend Service
 
-User logs in via Descope → auth/descope_auth.py.
+This is the **backend service** for **MindRakshak – Guardian of Mental Wellbeing**, built with **FastAPI + SQLite3 + LangGraph**.
+It powers the student dashboard, wellness scheduler, Google Calendar integration, and AI assistant features.
 
-Dashboard loads from ui/dashboard.py.
+## Team
 
-Events fetched via services/calendar_service.py.
+#### Team Name: MindRakshak
 
-If missing → ask for timetable → parse in timetable_service.py.
+<b>Member 1:</b> Bachan Nayak <b>[Team Lead]</b>
 
-User clicks “Add Wellness Break” → handled in wellness_service.py.
+## Hackathon Theme / Challenge
 
-Notifications scheduled → notify_service.py.
+- <b>Theme 1: </b> Secure API integration with Descope Outbound Apps
 
-Agent chat handled in agent_ui.py + agent_service.py.
+- <b>Use Case Addressed:</b> Mental Health Scheduler – promoting balance between study and wellbeing.
 
-# Tech Stack (Finalized)
+## What We Built
 
-Frontend/UI: Streamlit (simple and hackathon-friendly).
+- Authentication via Descope Outbound Apps (no hardcoded tokens).
 
-Auth: Descope (login/signup, outbound apps for Google + Twilio).
+- Manage student schedules & sync with Google Calendar.
 
-Agent Bot: LangChain (or simple rules if time is short).
+- Wellness breaks auto-scheduled into calendar.
 
-Database: SQLite3 (lightweight, no setup).
+- Agent API endpoints for answering queries (class timings, breaks, reminders).
 
-Notifications: Twilio (SMS/call), SMTP (email).
+- Email reminders (via Google Gmail).
 
-Calendar Data: Google Calendar API via Descope Outbound App.
+- SQLite3 + SQLAlchemy ORM for persistence.
+
+- The <b>Architecture </b>
+<img width="1968" height="924" alt="image" src="https://github.com/user-attachments/assets/3daf5357-e7d3-427b-9d35-f319ea6a9b8f" />
+
+## How to Run
+1. **Backend (FastAPI)**
+2. **Frontend (Angular 18+)**
+
+## Tech Stack
+- **Framework**: FastAPI (Python 3.10+)
+
+- **Database**: SQLite3 + SQLAlchemy
+
+- **Authentication**: Descope Outbound Apps
+
+- **External API**: Google Calendar, Gmail API
+
+- **Agent**: LangGraph
+
+## 🎥 Demo Video
+
+👉 [Watch Demo](https://youtu.be/nput9WaXqI0)
+
+## API Endpoints
+
+
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+# 🧑‍💻 Built With ❤️ for the [Global MCP Hackathon 2025](https://www.hackerearth.com/challenges/hackathon/mcp-hackathon/)
+
