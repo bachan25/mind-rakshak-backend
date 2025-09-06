@@ -38,8 +38,8 @@ It powers the student dashboard, wellness scheduler, Google Calendar integration
 - Clone repository
 ```
   #!/bin/bash
-git clone https://github.com/bachan25/mind-rakshak-web.git
-cd mind-rakshak-web
+git clone https://github.com/bachan25/mind-rakshak-backend.git
+cd mind-rakshak-backend
 ```
 - create virtual envirnoment and activate it
 ```
@@ -54,6 +54,11 @@ pip install -r .\requirements.txt
 ```
 python .\init_db.py
 ```
+- update the below API key in .env file
+  ```
+  TAVILY_API_KEY= <YOUR_TAVILY_API_KEY>
+  OPENAI_API_KEY= <YOUR_OPENAI_API_KEY>
+  ```
 - Run Application
 ```
 python run.py
