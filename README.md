@@ -79,7 +79,7 @@ python run.py
 
 ## 🎥 Demo Video
 
-👉 [Watch Demo](https://youtu.be/nput9WaXqI0)
+👉 [Watch Demo](https://youtu.be/k6vSuXObu5s)
 
 ## API Endpoints
 Navigate to http://localhost:8000/api/docs to check API Endpoints
