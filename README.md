@@ -82,7 +82,7 @@ python run.py
 👉 [Watch Demo](https://youtu.be/nput9WaXqI0)
 
 ## API Endpoints
-
+Navigate to http://localhost:8000/api/docs to check API Endpoints
 
 
 ## 📄 License
